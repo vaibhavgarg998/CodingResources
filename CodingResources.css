@@ -1,3 +1,32 @@
+@media (min-width:500px){
+    h1::before{
+               content: "Free Resources to learn Coding"
+    }
+}
+@media (max-width:499px){
+    h1::before{
+              content:"Free Coding Resources"
+    }    
+    
+}
+
+
+@media print{
+    .screen-only{
+        display:none
+    }
+}
+
+#nav{
+    text-align: center ;
+    border:solid rgb(87, 80, 80);
+    margin:20px;
+    padding:3px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
 h1 {
     text-align:center;
     color:#3c3d3c;
@@ -9,7 +38,7 @@ p{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#top{
+#header{
     background-color: rgb(235, 235, 235);
     font-family: Arial, Helvetica, sans-serif;
     border:3px solid gray;
@@ -18,7 +47,28 @@ p{
 
 }
 
-#middle{
+input[type="text"]{
+    background-color: yellow;
+}
+
+input[type="password"]{
+    background-color:yellow;
+}
+
+button{
+    width:100px;
+    height:50px;
+    background-color:white;
+    font-size:17px;
+}
+
+button:hover{
+    background-color:gray;
+    font-size:20px;
+}
+
+
+#content{
     font-family: Arial, Helvetica, sans-serif;
     border:3px solid rgb(105, 104, 104);
     background-color: #a19f9f;
